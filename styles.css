@@ -12,7 +12,7 @@ p#quote{
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  background-color: #f1f1f1;
+  background-color: rgb(220, 170, 0);
 }
 header{
   text-align:center;
@@ -24,6 +24,7 @@ header{
   height: 100%;
   min-width: 280px;
   max-width: 300px;
+  
 }
 
 #navbar {
@@ -31,12 +32,16 @@ header{
   border-left: solid 2.5px #333;
   padding-top:11em;
   padding-left:2em;
+  padding-right: 2em;
+  color: rgb(0, 120, 120);
+
 }
 
 #navbar>h1 {
   font-size: 1.6rem;
   text-align: center;
   padding: 1rem 0;
+
   
 }
 
@@ -50,6 +55,8 @@ header{
 
 #navbar ul li {
   border: solid 1.3px #333;
+  background-color: rgb(0, 170, 180);
+  font-weight: bold;
 }
 
 #main-header #navbar ul li a {
@@ -131,92 +138,124 @@ header{
 
 }
 #solar{
-  width:410px;
+  width:700px;
+  margin: 10px auto 20px;
+  display: block;
 }
 h2{
   text-align:center;
 }
 #sun{
-  width:415px;
+  width:700px;
   padding-bottom:1em;
+  margin: 10px auto 20px;
+  display: block;
 }
 #sun-reflection{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:500px;
   padding-bottom:1em;
+  margin: 10px auto 20px;
+  display: block;
 }
 #solars{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:500px;
+  margin: 10px auto 20px;
+  display: block;
 }
 #explanation{
-  width:415px;
-  height:350px;
+  width:700px;
+  height:400px;
+  margin: 10px auto 20px;
+  display: block;
 }
 #solar-panel{
-  width:415px;
-  height:350px;
+  width:700px;
+  height:400px;
+  margin: 10px auto 20px;
+  display: block;
 }
 #house{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:400px;
   text-align:center;
+  margin: 10px auto 20px;
+  display: block;
 }
 h4{
   text-align:center;
 }
 #solar-array{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:500px;
   padding-top:1em;
   padding-bottom:1em;
+  margin: 10px auto 20px;
+  display: block;
 }
 #mounting{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:400px;
   padding-top:1em;
   padding-bottom:1em;
+  margin: 10px auto 20px;
+  display: block;
 }
 #cabling{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:400px;
   padding-top:1em;
   padding-bottom:1em;
+  margin: 10px auto 20px;
+  display: block;
 }
 #tracker{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:400px;
   padding-top:1em;
   padding-bottom:1em;
+  margin: 10px auto 20px;
+  display: block;
 }
 #inverter{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:400px;
   padding-top:1em;
   padding-bottom:1em;
+  margin: 10px auto 20px;
+  display: block;
 }
 #battery{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:400px;
   padding-top:1em;
   padding-bottom:1em;
+  margin: 10px auto 20px;
+  display: block;
 }
 #monitor-meter{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:400px;
   padding-top:1em;
   padding-bottom:1em;
+  margin: 10px auto 20px;
+  display: block;
 }
 .cost{
-  width:415px;
-  height:300px;
+  width:700px;
+  height:400px;
   padding-top:1em;
   padding-bottom:1em;
+  margin: 10px auto 20px;
+  display: block;
 }
 #example{
   text-align:center;
 }
 
-code #code{
+code{
   margin-bottom:3em;
+  text-align: center;
+  font-size: 20px;
 }
